@@ -416,9 +416,122 @@
     border-radius: 10px;
 }
 
+.box-img h5 {
+
+    margin: 0;
+}
+
+.box-img  {
+
+    margin-bottom: 10px;
+}
+
+.box-img img {
+
+    margin-right: 5px;
+    background: #f9fafb;
+    border-radius: 20px;
+    padding: 5px;
+
+}
+
+.about-second-left {
+
+    padding-top: 50px;
+}
+
+.about-second-left h1 {
+
+    font-weight: 600;
+    margin-bottom: 10px;
+}
 
 
 
+.about-second-left a {
+    margin-top: 10px;
+    text-decoration: none;
+    color: #F6C547;
+    background: #3D2120;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 10px 40px 10px 40px;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+    display: inline-block; /* Ensure that the anchor is a block-level element */
+}
+
+.about-second-left a::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.2);
+    transition: width 0.3s ease; 
+}
+
+.about-second-left a:hover::after {
+    width: 100%; 
+}
+
+
+.about-second-right div img:last-child {
+
+    margin-top: -120px;
+    margin-left: 170px;
+}
+
+.about-second-right {
+
+    text-align: center;
+}
+
+.about-second-right img {
+
+    border-radius: 10px;
+}
+
+.contact-main h1 {
+
+    text-align: center;
+    font-size: 60px;
+    font-weight: 600;
+
+}
+
+.contact-box {
+
+    margin-top: 50px;
+    border:1px solid rgb(202, 202, 202);
+    padding: 40px;
+    border-radius: 10px;
+
+}
+
+.contact-box a {
+
+    text-decoration: none;
+    color: #3D2120;
+    font-weight: 500;
+
+}
+.contact-box-icon {
+
+    margin-bottom: 10px;
+}
+
+.contact-box-icon h5 {
+
+    margin-bottom: 0;
+}
+
+.contact-box-icon img {
+
+    margin-right: 10px;
+}
 
 @media only screen and (max-width: 768px) {
 
@@ -486,7 +599,7 @@
     gap: 30px;
   }
 
-  .contact-main {
+  .contact {
 
     margin-left: 10px;
     margin-right: 10px;
@@ -559,5 +672,41 @@
         padding-bottom: 120px;
         border-radius: 20px;
         background-position-y: 108px;
+    }
+
+    .box {
+
+        gap:50px;
+    }
+
+    .about-second-left {
+
+        padding-top: 0 !important;
+    }
+
+    .about-second-left {
+
+        text-align: center;
+    }  
+    .about-second-left p {
+
+
+        text-align: justify;
+    }
+
+    .about-second-right {
+
+        text-align: left;
+        padding-top: 20px;
+    }
+
+    .about-second-right div img:last-child {
+        margin-top: -120px;
+        margin-left: 60px;
+    }
+
+    .contact-main h1 {
+
+        font-size: 45px;
     }
 }

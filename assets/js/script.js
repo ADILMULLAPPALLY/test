@@ -14,3 +14,6 @@ window.addEventListener('load', function() {
     // After some delay (e.g., 2 seconds), hide the loader
     setTimeout(hideLoader, 2000); // Example: Hide loader after 2 seconds
 });
+
+
+AOS.init();
