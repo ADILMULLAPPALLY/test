@@ -1,0 +1,543 @@
+ body {
+            font-family: "Outfit", sans-serif;
+           
+           
+            /* background: linear-gradient(to bottom right, #ffffff, #f39d1267); */
+            /* Adjust the angle and colors as needed */
+           
+           
+           
+         
+        }
+
+
+.section {
+
+    padding-top: 150px;
+}
+
+
+.bg-body-tertiary {
+
+    background: #F6C547 !important;
+    margin:0px 20px 0px 20px ;
+    border-radius:0px 0px 20px 20px ;
+    padding: 20px;
+    z-index: 999999;
+
+    
+}
+
+
+.nav-link {
+
+    margin-right:20px ;
+    padding: 10px 15px 10px 15px !important;
+    color: #3D2120;
+    font-size: 19px;
+    font-weight: 500;
+    transition: color 0.3s ease, background 0.3s ease; 
+    padding-right: 20px;
+    padding-left: 200px;
+    border-radius: 25px;
+    
+}
+
+
+
+.nav-link:hover {
+
+    color:#fff;
+    
+    background:#3D2120 ; 
+        
+}
+
+.hero-sec {
+    min-height: 700px;
+    background-image: url(../img/Group\ 72\ \(1\).png);
+    background-repeat:no-repeat ;
+    background-size:cover ;
+    margin-top: -90px;
+    border-radius: 0px 0px 50px 50px;
+    text-align: center;
+    
+    
+}
+
+
+.hero-sec h1 {
+
+  color: #F6C547;
+  text-align: center;
+  font-size: 57px;
+  font-weight: bold;
+}
+
+.hero-button a {
+
+    text-decoration: none;
+    color: #F6C547;
+    border: 2px solid ;
+    padding:10px 50px 10px 50px;
+    border-radius: 15px;
+    font-weight: 600;
+    font-size: 20px;
+    transition: color 0.3s ease, background 0.3s ease;
+
+
+}
+
+.hero-button a:hover {
+
+    background: #F6C547;
+    color: #000;
+    border-color: #F6C547;
+
+}
+
+
+.hero-button {
+  
+    
+    gap: 30px;
+    margin-top: 50px;
+    
+}
+
+
+
+
+.about-left img {
+
+    width: 90%;
+    border-radius: 10px;
+    
+  
+}
+
+.about-right h1 {
+
+    font-weight: 700;
+    background: linear-gradient(45deg, #ffb700, #505050, #ffb700);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.about-right p {
+
+    font-size: 18px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    
+}
+
+.about-right a {
+    text-decoration: none;
+    color: #F6C547;
+    background: #3D2120;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 10px 40px 10px 40px;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+    display: inline-block; /* Ensure that the anchor is a block-level element */
+}
+
+.about-right a::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.2);
+    transition: width 0.3s ease; 
+}
+
+.about-right a:hover::after {
+    width: 100%; 
+}
+
+.product-main {
+
+    background: url('../img/Group 73 (1).svg');
+    
+}
+
+
+.product-head {
+
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    flex-direction: column;
+}
+
+
+.product-head a {
+
+    text-decoration: none;
+    color: #3D2120;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+
+.product {
+
+    background: #F9F4F1;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    border-radius: 20px;
+  
+    transition: background-color 0.5s, box-shadow 0.5s; 
+}
+
+.product p {
+
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: center;
+}
+
+.product:hover {
+
+
+    background-color: #f0f0f0;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.425);
+}
+
+.contact-sec {
+
+    background: #F6C547;
+    padding: 50px;
+    border-radius: 20px;
+}
+
+.contact-sec p {
+
+    color: #2E2E2E;
+    font-size: 17px;
+    
+   
+}
+.contact-sec h1 {
+
+    color: #3D2120;
+    padding-bottom: 20px;
+}
+
+
+.contact-button {
+
+    text-align: right;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+
+.contact-button a {
+    margin-right: 100px;
+    text-decoration: none;
+    color: #F6C547;
+    background: #3D2120;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 10px 40px 10px 40px;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+    display: inline-block; /* Ensure that the anchor is a block-level element */
+}
+
+.contact-button a::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.2);
+    transition: width 0.3s ease; 
+}
+
+.contact-button a:hover::after {
+    width: 100%; 
+}
+
+
+
+.future-now {
+    background: url('../img/Group 73 (1).svg') center no-repeat, #fff8e5;
+    background-size: 1105px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-top: 160px; 
+    padding-bottom: 120px; 
+    border-radius: 20px;
+    background-position-y: 20px;
+    
+} 
+
+.future-now h1 {
+
+    text-align: center;
+    font-size: 80px;
+    font-weight: 800;
+    background: linear-gradient(45deg, #ffb700, #ffb700, #2b2b2b);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+.future-button {
+
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 50px;
+
+
+}
+
+.future-button a {
+
+    text-decoration: none;
+    border: 2px solid #3D2120;
+    color: #3D2120;   
+    font-size: 18px;
+    font-weight: 500;
+    padding: 10px 40px 10px 40px;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    transition: background-color 0.5s ease, color 0.5s ease;
+}
+
+.future-button a:hover {
+
+    background: #3D2120;
+    color: #ffb700
+}
+
+
+
+
+
+.footer-main {
+
+    margin: 130px 20px 0px 20px;
+    border-radius: 20px 20px 0px 0px ;
+    background: #F6C547;
+    padding-top: 60px;
+}
+
+.footer-logo {
+
+    text-align: center;
+}
+
+
+.footer-links {
+
+    display: flex;
+    justify-content: center;
+    gap: 50px   ;
+}
+
+.footer-links a {
+
+    text-decoration: none;
+    margin-top: 50px;
+    color: #3D2120;
+    font-weight: 600;
+    font-size: 19px;
+}
+
+.footer-button {
+
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+.footer-button a {
+
+    text-decoration: none;
+    color: #3D2120;
+    font-size: 25px;
+    margin-bottom: 40px;
+}
+
+   /* Loader styles */
+   .loader-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(255, 255, 255); /* semi-transparent background */
+    display: none; /* initially hidden */
+    justify-content: center;
+    align-items: center;
+    z-index: 99999999; /* Ensure loader is on top */
+}
+
+.loader {
+    width: 50px;
+    height: 50px;
+    animation: spin 2s linear infinite;
+}
+
+
+
+
+
+@media only screen and (max-width: 768px) {
+
+
+    .section {
+        padding-top: 100px;
+    }
+
+    .bg-body-tertiary {
+
+        margin: 0;
+    }
+    .bg-body-tertiary img {
+
+        width: 40%;
+    }
+
+    .nav-item {
+
+        margin-top: 25px;
+    }
+
+    .nav-link {
+
+        padding: 0 !important;
+    }
+    .nav-link:hover {
+        /* You can either reset the styles or define new ones */
+        color: initial; /* Resetting color to default */
+        background: initial; /* Resetting background to default */
+    }
+
+    .hero-sec h1 {
+
+        font-size: 45px;
+    }
+
+    .hero-button a {
+       
+        padding: 10px 30px 10px 30px;
+        font-size: 18px;
+     
+    }
+
+    .hero-sec {
+    min-height: 600px;    
+  }
+
+  .about-left  {
+
+    text-align: center;
+  }
+  .about-right {
+
+    text-align: center;
+    padding-top: 30px;
+  }
+  .about-right p {
+
+    text-align: justify;
+    font-size: 16px;
+  }
+  .product-main .row {
+
+    gap: 30px;
+  }
+
+  .contact-main {
+
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .contact-sec {
+
+    text-align: center;
+   
+  }
+
+  .contact-button {
+
+    justify-content: center;
+  }
+  .contact-button a {
+
+    margin: 0;
+    
+    
+  }
+  .future-now {
+
+    padding-top:100px ;
+  }
+  .future-now h1 {
+
+    font-size: 45px;
+    
+  }
+  .future-now a {
+
+    padding: 10px 30px 10px 30px;
+  }
+  .footer-main {
+
+    margin: 100px 0px 0px 0px;
+  }
+  .footer-links {
+    display: flex;
+    gap: 0;
+    flex-direction: column;
+    align-items: center;
+    }
+
+    .footer-links a {
+
+        margin-top: 30px;
+    }
+
+    .footer-button {
+        gap: 0;
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer-button a {
+      
+        margin-bottom: 20px;
+    }
+
+    .future-now {
+        
+        background-size: 437px;
+        margin-left: 20px;
+        margin-right: 20px;
+        padding-top: 160px;
+        padding-bottom: 120px;
+        border-radius: 20px;
+        background-position-y: 108px;
+    }
+}
